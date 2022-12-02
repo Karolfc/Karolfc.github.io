@@ -1,0 +1,314 @@
+html{
+    background-color: whitesmoke;
+    font-family: Helvetica;
+    font-size: 10pt;
+}
+
+body{margin: 0;}
+
+h4, p{margin: 5px 0;}
+
+img, h4, .username, .Comment, .A, .user, .switch, .SeeAll, p t{cursor: pointer;}
+
+/* Nav */ 
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+    height: 8vh;
+    z-index: 1;
+    margin-left: -1vw;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    top: 0;
+    overflow: hidden;
+    height: 10vh;
+    margin-top: 7px;
+  }
+
+#logoInstagram {
+    width: 7vw;
+    height: auto;
+    margin-left: 14vw;
+}
+
+#searchicon {
+    color: rgba(163, 163, 163);
+    margin-left: 1vw;
+    margin-top: -0.2vh;
+}
+
+#searchText {
+    position: absolute;
+    font-size: 9px;
+    font-weight: lighter;
+    color: rgb(174, 174, 174);
+    margin-left: 3vw;
+    margin-top: -3vh;
+}
+
+.searchgroup {
+    background-color: rgb(238, 238, 238);
+    width: 17vw;
+    height: 4.5vh;
+    margin-left: 15vw;
+    border-radius: 4px;
+}
+
+#homeicon {
+    margin-left: 5vw;
+}
+
+#messengericon {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#masicon {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#exploreicon {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#likeiconNav {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#photoperfilNav {
+    border-radius: 100%;
+    margin-left: 1.2vw;
+    margin-top: 0.5vh;
+}
+
+/* Content */
+
+.content{
+    display: flex;
+    margin: 1% 22vw;
+    margin-top: 8vh;
+    padding: 0;
+}
+
+/* Stories */ 
+
+stories-container {
+    display: flex;
+    margin-top: 12vh;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 30px rgb(206, 206, 206, 0.3);
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+    width: 28vw;
+    margin-left: 28vw;
+    flex-direction: row;
+}
+
+stories-container::-webkit-scrollbar {
+    width: 0px;
+    height: 15px;
+}
+
+stories-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-button:single-button {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+#photostory {
+    display: flex;
+    border-radius: 100%;
+    width: 3.8vw;
+    height: 8vh;
+    margin: 8px;
+    margin-right: 1.5px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#a028eb 90%) border-box;
+    border-radius: 50%;
+    border: 1.5px solid transparent;
+}
+
+#nameStory {
+    font-weight: lighter;
+    font-size: 7px;
+    margin-top: -4px;
+    margin-left: 12px;
+}
+
+/* Posts */ 
+
+.component{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3vh 1vw;
+    width: 30vw;
+    height: 88vh;
+    margin: 5% auto;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+#header{display: flex;}
+
+.PP{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.Ubication{
+    opacity: 0.8;
+    font-size: 10pt;
+    width: 20vh;
+}
+
+.Points{
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    margin-left: 12vw;
+}
+
+.FP{
+    margin: 15px 0 15px -1.1vw;
+    width: 30vw;
+    height: 26vw;
+}
+
+.other{
+    margin-bottom: 4%;
+    height: 22px;
+}
+
+.other:hover{
+    opacity: 0.5;
+    height: 21.5px;
+}
+
+.swipe{
+    height: 8px;
+    margin: 1vh 3vh 0 0;
+}
+
+#Down{
+    display: flex;
+    justify-content: space-between;
+    }
+
+.Caption t{color: dodgerblue;}
+
+.Comment{
+    opacity: 0.5;
+    font-size: 9pt;
+}
+
+.Date{
+    opacity: 0.5;
+    font-size: 8pt;
+}
+
+#heart{
+    position: relative;
+    bottom: 7.5vh;
+}
+
+#OtherIcon{
+    position: relative;
+    left: 1.8vw;
+}
+
+#UserCaption{
+    position: relative;
+    bottom: 5vh;
+}
+
+/* Side */ 
+
+.Sidebar{margin: 0 2vw;}
+
+.Prof{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    }
+
+.A{
+    font-weight: bold;
+    margin-left: 1vw;
+}
+
+.B{
+    color: gray;
+    margin-left: 1vw;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 6vh 0;
+}
+
+.switch{
+    color: dodgerblue;
+    margin-left: 3.5vw;
+}
+
+.Suggestions{display: flex;}
+
+.Suggest{
+    color: darkgray;
+    font-weight: bold;
+}
+
+.SeeAll{margin-left: 5vw;}
+
+.Recomendation{
+    margin: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+.New{color: gray;}
+
+.Follow t{
+    color: dodgerblue;
+    margin: 3vw;
+}
+
+.About{
+    color: rgb(190, 190, 190);
+    margin-top: 3vh;
+    width: 16vw;
+    font-size: 9pt;
+}
+

@@ -1,0 +1,459 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica;
+}
+
+body{margin: 0;}
+
+h4, p{margin: 5px 0;}
+
+img, h4, .username, .Comment, .A, .user, .switch, .SeeAll, p t{cursor: pointer;}
+
+/* Nav bar */ 
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+    height: 8vh;
+    z-index: 1;
+    margin-left: -1vw;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    top: 0;
+    overflow: hidden;
+    height: 10vh;
+    margin-top: 7px;
+  }
+
+#logoInstagram {
+    width: 7vw;
+    height: auto;
+    margin-left: 17vw;
+    margin-top: 0.8vh;
+}
+
+#searchicon {
+    color: rgba(163, 163, 163);
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+#searchText {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(174, 174, 174);
+    margin-left: 3vw;
+    margin-top: -2.8vh;
+}
+
+.searchgroup {
+    background-color: rgb(238, 238, 238);
+    width: 17.5vw;
+    height: 4.8vh;
+    margin-top: 0.8vh;
+    margin-left: 15vw;
+    border-radius: 8px;
+}
+
+#homeicon {
+    margin-left: 5vw;
+    margin-top: 0.5vh;
+}
+
+#messengericon {
+    margin-left: 3.8vw;
+    margin-top: 1.3vh;
+}
+
+
+#exploreicon {
+    margin-left: 1.4vw;
+    margin-top: 1.3vh;
+}
+
+#likeiconNav {
+    margin-left: 1.4vw;
+    margin-top: 1.3vh;
+}
+
+#photoperfilNav {
+    border-radius: 100%;
+    margin-left: 1.4vw;
+    margin-top: 1.2vh;
+}
+
+
+/* Stories */ 
+
+stories-container {
+    display: flex;
+    margin-top: 12vh;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 30px rgb(206, 206, 206, 0.3);
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+    width: 28vw;
+    margin-left: 25vw;
+    flex-direction: row;
+}
+
+stories-container::-webkit-scrollbar {
+    width: 0px;
+    height: 15px;
+}
+
+stories-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-button:single-button {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+#photostory {
+    display: flex;
+    border-radius: 100%;
+    width: 3.8vw;
+    height: 8vh;
+    margin: 8px;
+    margin-right: 1.5px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#a028eb 90%) border-box;
+    border-radius: 50%;
+    border: 2.5px solid transparent;
+}
+
+#nameStory {
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 4px;
+    margin-top: -2px;
+    margin-left: 16px;
+    color: rgba(63, 63, 63);
+}
+
+/* Posts */ 
+
+#container {
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2vh 1.5vw;
+    margin: 1% auto;
+    width: 28vw;
+    height: 88vh;
+    margin-left: 25vw;
+    box-shadow: 2px 2px 30px rgb(206, 206, 206, 0.3);
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+}
+
+
+#photopost {
+    margin: 12px -1.5vw 0 1.5vw;
+    margin-top: 7vh;
+    margin-left: -1.5vw;
+    width: 28vw;
+    height: 60vh;
+}
+
+#name {
+    position: absolute;
+    margin-top: 0.4vh;
+    margin-left: 7vh;
+    font-size: 1.8vh;
+    font-weight: 600;
+    color: black;
+}
+
+#place {
+    position: absolute;
+    margin-top: 2.7vh;
+    font-size: 1.5vh;
+    color: rgb(138, 138, 138);
+    font-weight: lighter;
+    margin-left: 7vh;
+}
+
+#fotoPerfil {
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 0vw;
+    margin-top: 0;
+    width: 35px;
+    height: 35px;
+}
+
+#views {
+    position: absolute;
+    margin-top: 72.8vh;
+    font-size: 1.7vh;
+    font-weight: 600;
+    color: rgb(23, 23, 23);
+}
+
+#description {
+    position: absolute;
+    margin-top: 75.5vh;
+    font-size: 1.8vh;
+}
+
+#comments {
+    position: absolute;
+    margin-top: 78.7vh;
+    font-size: 1.8vh;
+    color: rgb(138, 138, 138);
+}
+
+#date {
+    position: absolute;
+    margin-top: 82vh;
+    font-size: 1.2vh;
+    color: rgb(138, 138, 138);
+}
+
+#likeIcon {
+    position: absolute;
+    margin-top: 68.3vh;
+    margin-left: -25vw;
+    width: 22px;
+    height: 22px;
+}
+
+#commentIcon {
+    position: absolute;
+    margin-top: 68vh;
+    margin-left: -22.6vw;
+    width: 26px;
+    height: 26px;
+}
+
+#sendIcon {
+    position: absolute;
+    margin-top: 68.2vh;
+    margin-left: -20.1vw;
+    width: 21px;
+    height: 21px;
+    transform: rotate(15deg);
+}
+
+#saveIcon {
+    position: absolute;
+    margin-top: 68.3vh;
+    margin-left: -1vw;
+    width: 20px;
+    height: 20px;
+}
+
+#moreIcon {
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: -1vw;
+}
+
+/* Sidebar and suggestions */ 
+
+#sidebar {
+    display: flex;
+    margin-top: -900vh;
+    
+}
+
+#usuarioContainer {
+    position: absolute;
+    margin-left: 55vw;
+    margin-top: -20vh;
+}
+
+#fotoUsuario{
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 7px;
+    margin-top: 3.5vh;
+    width: 55px;
+    height: 55px;
+}
+
+#usuario {
+    font-weight: 600;
+    font-size: 13.5px;
+    margin-left: 5vw;
+    margin-top: 4.5vh;
+    color: rgba(63, 63, 63);
+}
+
+#nombreUsuario {
+    font-weight: lighter;
+    font-size: 13.5px;
+    color: rgb(163, 163, 163);
+    margin-left: 5vw;
+    margin-top: -1.3vh;
+}
+
+#switch {
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(0, 166, 255);
+    margin-left: 16vw;
+    margin-top: -6vh;
+}
+
+suggestions-container {
+    
+    white-space: nowrap;
+    background-color: white;
+    width: 28vw;
+    margin-left: 55vw;
+    top: -200px;
+    flex-direction: column;
+}
+
+#suggestionsTitle {
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: rgba(163, 163, 163);
+    margin-left: 55.5vw;
+    margin-top: -5vh;
+}
+
+#seeAll {
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 71vw;
+    margin-top: -5vh;
+}
+
+#photoSuggestion {
+    display: flex;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    margin-right: 1.5px;
+}
+
+#nameSuggestion {
+    color: rgba(63, 63, 63);
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.8vh;
+    margin-top: -5.5vh;
+    margin-left: 3.6vw;
+}
+
+#suggestionText {
+    position: absolute;
+    font-weight: lighter;
+    font-size: 1.6vh;
+    color: rgb(163, 163, 163);
+    margin-left: 3.6vw;
+    margin-top: -3vh;
+}
+
+#follow {
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(0, 166, 255);
+    margin-left: 16vw;
+    margin-top: -5vh;
+}
+
+#letrapequeña {
+    font-size: 1.6vh;
+    color: rgb(213, 213, 213);
+    margin-left: -27.2vw;
+    margin-top: 62vh;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+#copyrightimagen {
+    margin-top: 2vh;
+    width: 11px;
+    height: 11px;
+}
+
+#copyrightText {
+    margin-top: 1.9vh;
+    margin-left: 0.3vw;
+}
+
+/*Abrir form*/
+
+#AbrirForm {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: none;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    pointer-events: unset;
+}
+
+#CreatePostFormContainer {
+    margin: 25vh auto;
+    padding: 35px 15px;
+    background-color: white;
+    text-align: center;
+    width: 30vw;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.8);
+}
+
+#TituloCreateNewPost {
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: x-large;
+    color: rgb(79, 79, 79);
+}
+
+/*Abrir y cerrar form*/
+
+#masicon {
+    margin-left: 66.5vw;
+    margin-top: -100.5vh;
+    width: 21px;
+    height: 21px;
+    z-index: 100;
+    display: flex;
+    position: fixed;
+}
+
+#equisicon {
+    margin-left: 96vw;
+    bottom: 85vh;
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    z-index: 20;
+}
