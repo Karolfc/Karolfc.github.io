@@ -31,7 +31,7 @@ export class Register extends HTMLElement{
         this.shadowRoot.innerHTML = `
         <section class="Register">
         <link href="./public/Style.css" rel="stylesheet">
-            <img id="PhoneLogIn" src="./components/Home/Feed/components/Profile/images/PhoneRegister.png">
+            <img id="PhoneLogIn" src="./public/components/Home/Feed/components/Profile/images/PhoneRegister.png">
             <img class="InstaLogo" src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png">
             <h4 class="GreyTitle">Sign up to see photos and videos from your friends</h4>
             <button id="logInFacebook">Log in with Facebook</button>

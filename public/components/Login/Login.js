@@ -30,7 +30,7 @@ export class Login extends HTMLElement {
         this.shadowRoot.innerHTML = `
         <section class="Login">
         <link href="./public/Style.css" rel="stylesheet">
-            <img id="PhoneLogIn" src="./components/Home/Feed/components/Profile/images/PhoneRegister.png">
+            <img id="PhoneLogIn" src="./public/components/Home/Feed/components/Profile/images/PhoneRegister.png">
             <img class="InstaLogo" src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png">
             <app-form></app-form>
             <h3 class="GreyOr">OR</h3>
