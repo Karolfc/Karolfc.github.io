@@ -152,14 +152,14 @@ export class Home extends HTMLElement{
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
                             alt="logoInstagram"></li>
                             <section class="searchgroup">
-                                <li id="searchicon"><img src="./components/Home/Feed/components/Profile/images/search.png" alt="searchicon" width="19vw" height="19vh"></li>
+                                <li id="searchicon"><img src="./public/components/Home/Feed/components/Profile/images/search.png" alt="searchicon" width="19vw" height="19vh"></li>
                                 <li id="searchText">Search</li>
                             </section>
                         <li id="homeicon"><img src="https://static.thenounproject.com/png/771236-200.png" alt="homeicon" width="35vw" height="35vh"></li>
                         <li id="messengericon"><img src="https://cdn-icons-png.flaticon.com/512/5948/5948514.png" alt="messengericon" width="21w" height="21vh"></li>
                         <li id="exploreicon"><img src="https://cdn-icons-png.flaticon.com/512/77/77521.png" alt="exploreicon" width="22vw" height="22vh"></li>
                         <li id="likeiconNav"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="likeiconNav" width="22vw" height="22vh"></li>
-                        <li><img id="photoperfilNav" src="./components/Home/Feed/components/Profile/images/fotoPerfil.jpg" alt="photoperfilNav" width="24px" height="24px"></li>
+                        <li><img id="photoperfilNav" src="./public/components/Home/Feed/components/Profile/images/fotoPerfil.jpg" alt="photoperfilNav" width="24px" height="24px"></li>
                     </ul>
                 </nav>
             </header>
@@ -183,7 +183,7 @@ export class Home extends HTMLElement{
 
                 <section id="sidebar">
                     <section id="usuarioContainer">
-                        <img id="fotoUsuario" src="./components/Home/Feed/components/Profile/images/fotoPerfil.jpg " alt="fotoUsuario" width="32vw" height="32vh">
+                        <img id="fotoUsuario" src="./public/components/Home/Feed/components/Profile/images/fotoPerfil.jpg " alt="fotoUsuario" width="32vw" height="32vh">
                         <h1 id="usuario">LittleMonkey22</h1>
                         <h2 id="nombreUsuario">Little Monkey</h2>
                         <p id="switch">Switch</p>
@@ -199,7 +199,7 @@ export class Home extends HTMLElement{
                     <section id="letrapequeña">
                         <p id="helpText">About·Help·Press·API·Jobs·Privacy·Terms·Locations·<br>Language</p>
                         <section id="copyright">
-                            <img id="copyrightimagen" src="./components/Home/Feed/components/Profile/images/copyright.png" alt="copyright" width="7px" height="7px">
+                            <img id="copyrightimagen" src="./public/components/Home/Feed/components/Profile/images/copyright.png" alt="copyright" width="7px" height="7px">
                             <p id="copyrightText">2022 INSTAGRAM FROM META</p>
                         </section>
                     </section>

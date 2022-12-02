@@ -41,7 +41,7 @@ class MyProfile extends HTMLElement {
             this.shadowRoot.innerHTML = `
             <link href="./public/components/Home/style.css" rel="stylesheet">
             <section id="container">
-                <img id="fotoPerfil" src="./components/Home/Feed/components/Profile/images/fotoPerfil.jpg" alt="fotoperfil" width="23px" height="23px">
+                <img id="fotoPerfil" src="./public/components/Home/Feed/components/Profile/images/fotoPerfil.jpg" alt="fotoperfil" width="23px" height="23px">
                 <h1 id="name">${this.name}</h1>
                 <h2 id="place">${this.place}</h2>
                 <img id="photopost" ${this.photopost} 
@@ -51,11 +51,11 @@ class MyProfile extends HTMLElement {
                 <p id="date">${this.date}</p>
 
                 <section >
-                    <img id="moreIcon" src="./components/Home/Feed/components/Profile/images/more.png" alt="moreicon" width="10px" height="10px">
-                    <img id="saveIcon" src="./components/Home/Feed/components/Profile/images/save.png" alt="saveicon" width="13px" height="13px">
-                    <img id="sendIcon" src="./components/Home/Feed/components/Profile/images/send.png" alt="sendicon" width="12px" height="12px">
-                    <img id="likeIcon" src="./components/Home/Feed/components/Profile/images/like.png" alt="likeicon" width="13px" height="13px">
-                    <img id="commentIcon" src="./components/Home/Feed/components/Profile/images/comment.png" alt="commenticon" width="16px" height="16px">
+                    <img id="moreIcon" src="./public/components/Home/Feed/components/Profile/images/more.png" alt="moreicon" width="10px" height="10px">
+                    <img id="saveIcon" src="./public/components/Home/Feed/components/Profile/images/save.png" alt="saveicon" width="13px" height="13px">
+                    <img id="sendIcon" src="./public/components/Home/Feed/components/Profile/images/send.png" alt="sendicon" width="12px" height="12px">
+                    <img id="likeIcon" src="./public/components/Home/Feed/components/Profile/images/like.png" alt="likeicon" width="13px" height="13px">
+                    <img id="commentIcon" src="./public/components/Home/Feed/components/Profile/images/comment.png" alt="commenticon" width="16px" height="16px">
                 </section>
           </section>
             `;
